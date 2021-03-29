@@ -1,0 +1,232 @@
+/**************
+dark purple #53354a | dark red #903749 
+red #e84545 | dark blue #2b2e4a | black #151515
+yellow #fed049 |
+font-family: 'Brygada 1918', serif;
+font-family: 'Chango', cursive;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Kiwi Maru', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Mrs Sheppards', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Train One', cursive;
+***************/
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    #e84545,
+    #2b2e4a,
+    #000,
+    #000,
+    #2b2e4a,
+    #e84545
+  );
+
+  color: ivory;
+
+  text-align: center;
+
+  margin: 0;
+}
+
+p {
+  display: block;
+  margin: 0 auto;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
+  max-width: 600px;
+  text-align: justify;
+}
+
+a {
+  color: #e84545;
+}
+
+.abbrComments {
+  color: #fed049;
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: "Mrs Sheppards", cursive;
+  font-size: 6em;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  line-height: 0.3;
+  font-family: "Times New Roman", Times, serif;
+}
+
+summary {
+  margin-bottom: 50px;
+}
+
+.theBeautyOf {
+  font-size: 2em;
+}
+
+.cssDesign {
+  font-size: 4em;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 4em;
+  line-height: 0;
+  margin-bottom: 0;
+  color: #e84545;
+}
+
+.roadToEnlightenment {
+  font-family: "Kiwi Maru", serif;
+  font-size: 2em;
+}
+
+.whatsThisAbout {
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15% 85% 57% 43% / 67% 70% 30% 33%;
+  background-color: #e84545;
+}
+
+.participation {
+  font-family: "Lobster", cursive;
+  font-size: 3em;
+  letter-spacing: 10px;
+  margin-top: 60px;
+}
+
+.benefits {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 1em;
+  line-height: 0;
+}
+
+.requirements {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+summary:hover {
+  color: #fed049;
+  cursor: crosshair;
+}
+
+aside a {
+  color: ivory;
+}
+
+aside.asideTopLeft {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  text-align: left;
+}
+
+aside.asideTopRight {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  text-align: right;
+}
+
+aside.asideBottomRight {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  text-align: left;
+}
+
+.asideMenu ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.asideMenuHeading {
+  color: #fed049;
+  font-family: "Kiwi Maru", serif;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.archives,
+.resources {
+  margin-top: 0;
+}
+
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding: 12px 16px;
+  color: #e84545;
+  background-color: rgba(245, 66, 75, 0.1);
+  z-index: 1;
+}
+
+.asideTopLeft .dropdown-content {
+  top: 25px;
+  left: 0;
+}
+
+.asideTopRight .dropdown-content {
+  top: 25px;
+  right: 0;
+}
+
+.asideBottomRight .dropdown-content {
+  right: 0;
+  bottom: 25px;
+  text-align: right;
+  min-width: 245px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.borderTop {
+  border-top: 1px solid #fed049;
+  margin-top: 10px;
+}
+
+#footerNav {
+  margin-top: 60px;
+}
+
+#orangeDragon {
+  position: fixed;
+  transform: scaleX(-1);
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  h3 {
+    font-size: 2em;
+  }
+}
